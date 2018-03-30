@@ -42,6 +42,7 @@ urlpatterns = [
     url(r'^robots\.txt$', TemplateView.as_view(template_name='robots.txt'), name='robots'),
     url(r'^sitemap\.xml$', sitemap, {'sitemaps': sitemaps}, name='sitemap'),
 
+    url(r'^help/$', views.help, name='help'),
     url(r'^$', views.index, name='index'),
 ]
 
