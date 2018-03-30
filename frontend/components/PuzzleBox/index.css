@@ -13,9 +13,3 @@
 .infobox-wrapper {
     width: 214px;
 }
-
-@media (max-width: 768px) {
-    .puzzle-box {
-        top: 0;
-    }
-}
